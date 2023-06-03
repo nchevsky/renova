@@ -1,0 +1,20 @@
+{
+  "name": "renova",
+  "version": "0.1.0",
+  "description": "Patches unqualified exports and imports in installed packages by appending the appropriate file names and extensions.",
+  "author": "Nick Chevsky",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nchevsky/renova"
+  },
+  "type": "module",
+  "bin": "./index.js",
+  "dependencies": {
+    "bitumen": "^0.10.0",
+    "recast": "^0.23.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  }
+}
